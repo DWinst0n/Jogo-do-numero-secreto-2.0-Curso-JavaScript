@@ -84,7 +84,9 @@ body::before {
     font-weight: 700;
     font-family: 'Inter', sans-serif;
 }
-
+.container__imagem{
+    width: 50%;
+}
 .container__botoes {
     display: flex;
     gap: 2em;
