@@ -64,6 +64,7 @@ body::before {
     margin-top: 2rem;
 }
 
+
 .container__texto {
     margin: 16px 0 16px 0;
 }
@@ -74,7 +75,7 @@ body::before {
 
 .container__input {
     width: 100%;
-    height: 72px;
+    height: 4em;
     border-radius: 16px;
     background-color: #FFF;
     border: none;
@@ -84,18 +85,24 @@ body::before {
     font-weight: 700;
     font-family: 'Inter', sans-serif;
 }
-.container__imagem{
-    width: 50%;
+.container__imagem-robo {
+    width: 30%;
+    height: auto;
 }
 .container__botoes {
     display: flex;
     gap: 2em;
+}
+.botoes__nivel__container{
+    display: none;
+    gap: 0.5em;
 }
 
 h1 {
     font-family: 'Chakra Petch', sans-serif;
     font-size: 72px;
     padding-bottom: 3rem;
+    text-align: center;
 }
 
 p,
@@ -112,7 +119,7 @@ button:disabled {
     background-color: gray;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1020px) {
 
     h1 {
         font-size: 50px;
@@ -127,7 +134,7 @@ button:disabled {
         font-size: 24px;
     }
 
-    .container__imagem-pessoa {
+    .container__imagem-robo {
         display: none;
     }
 

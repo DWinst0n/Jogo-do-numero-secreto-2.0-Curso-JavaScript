@@ -20,18 +20,31 @@
             <div class="container__informacoes">
                 <div class="container__texto">
                     <h1></h1>
-                    <p class="texto__paragrafo"></p>
+                    <h2></h2>
+                    <div class="botoes__nivel__container">
+                        <button class="botao__jogo" onclick="escolherNivel1(); verificarNivel()">1</button>
+                        <button class="botao__jogo" onclick="escolherNivel2(); verificarNivel()">2</button>
+                        <button class="botao__jogo" onclick="escolherNivel3(); verificarNivel()">3</button>
+                        <button class="botao__jogo" onclick="escolherNivel4(); verificarNivel()">4</button>
+                        <style>
+                            .botao__jogo{
+                                padding: 1em;
+                                background-color: #1875E8;
+                            }
+                        </style>
+                    </div>
+                    <p></p>
                 </div>
-                <input type="number" min="1" max="10" class="container__input">
+                <input type="number" class="container__input">
                 <div class="chute container__botoes">
                     <button onclick="verificarChute()" class="container__botao">Chutar</button>
-                    <button onclick="" id="reiniciar" class="container__botao" disabled>Novo jogo</button>
+                    <button onclick="reiniciarJogo()" id="reiniciar" class="container__botao" disabled>Novo jogo</button>
                 </div>
             </div>
-            <img src="img/ia.png" alt="Um robô" class="container__imagem" />
+            <img src="img/ia.png" alt="Um robô" class="container__imagem-robo" />
         </div>
     </div>
-    <script src="app.js" defer></script>
 </body>
-
+<script src="app.js"></script>
 </html>
+</span>
