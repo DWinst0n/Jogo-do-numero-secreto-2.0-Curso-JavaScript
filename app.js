@@ -5,7 +5,7 @@ function exibirTextoNaTela(tag, texto) {
     if (campo) {
         campo.innerHTML = texto;
     }
-
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate: 1.2});
 }
 let nivel = 1;
 let tentativas = 1;
