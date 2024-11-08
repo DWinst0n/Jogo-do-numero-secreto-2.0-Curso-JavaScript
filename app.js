@@ -7,7 +7,7 @@ function exibirTextoNaTela(tag, texto) {
     }
     responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate: 1.2});
 }
-let nivel = 1;
+let nivel = 2;
 let tentativas = 1;
 function mensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto 2.0.');
