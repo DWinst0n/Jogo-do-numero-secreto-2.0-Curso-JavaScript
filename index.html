@@ -22,10 +22,10 @@
                     <h1></h1>
                     <h2></h2>
                     <div class="botoes__nivel__container">
-                        <button class="botao__jogo" onclick="escolherNivel1(); verificarNivel()">1</button>
-                        <button class="botao__jogo" onclick="escolherNivel2(); verificarNivel()">2</button>
-                        <button class="botao__jogo" onclick="escolherNivel3(); verificarNivel()">3</button>
-                        <button class="botao__jogo" onclick="escolherNivel4(); verificarNivel()">4</button>
+                        <button class="botao__jogo" onclick="escolherNivel(1)">1</button>
+                        <button class="botao__jogo" onclick="escolherNivel(2)">2</button>
+                        <button class="botao__jogo" onclick="escolherNivel(3)">3</button>
+                        <button class="botao__jogo" onclick="escolherNivel(4)">4</button>
                         <style>
                             .botao__jogo{
                                 padding: 1em;
@@ -37,7 +37,7 @@
                 </div>
                 <input type="number" class="container__input">
                 <div class="chute container__botoes">
-                    <button onclick="verificarChute()" class="container__botao">Chutar</button>
+                    <button onclick="verificarChute()" class="container__botao" id="jogar" disabled>Chutar</button>
                     <button onclick="reiniciarJogo()" id="reiniciar" class="container__botao" disabled>Novo jogo</button>
                 </div>
             </div>
