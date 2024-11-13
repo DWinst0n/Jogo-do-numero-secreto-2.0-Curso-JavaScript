@@ -94,7 +94,6 @@ body::before {
     gap: 2em;
 }
 .botoes__nivel__container{
-    display: none;
     gap: 0.5em;
 }
 
@@ -118,7 +117,27 @@ button {
 button:disabled {
     background-color: gray;
 }
-
+.rvNotification{
+    position: fixed;
+    bottom: 0;
+    height: 3.5em;
+    background-color: transparent;
+    border-radius: 2em;
+    align-content: center;
+    background-color: transparent;
+    border: solid 5px rgba(9, 5, 68, 0.4)
+}
+.rvTextRow{
+    display: none;
+}
+.rvButtonRow{
+    display: flex;
+    margin-left: 13px;
+    margin-top: 1em;
+    justify-content: center;
+    align-content: center;
+    gap: 5em;
+}
 @media screen and (max-width: 1020px) {
 
     h1 {
