@@ -1,3 +1,5 @@
+console.log("Engraçadinho(a), tá se achando o(a) hacker né... Usando cheat até num joguinho véi desse...");
+
 let listadeNumerosSorteados = [];
 let numeroSecreto;
 let nivel;
